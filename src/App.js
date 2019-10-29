@@ -47,7 +47,15 @@ class WPSitesSelector extends React.Component {
       },
       {
         url: 'http://localhost/wp-json/wp/v2/posts',
-        title: 'Test Site'
+        title: 'Home'
+      },
+      {
+        url: 'http://localhost',
+        title: 'About'
+      },
+      {
+        url: 'http://http://www.bluewillowtucson.com/wp-json/wp/v2/posts',
+        title: 'blue willow'
       },
     ];
      
