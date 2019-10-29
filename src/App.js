@@ -22,6 +22,7 @@ render () {
   let posts = this.state.posts.map((post,index) => {
     return (
       <div key = {index}>
+        <img src={posts.featured_media.alt_text} alt="failed to load" />
       </div>
     )
   })
